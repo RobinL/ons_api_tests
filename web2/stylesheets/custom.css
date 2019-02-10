@@ -1,0 +1,63 @@
+
+div.cells {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+
+}
+
+div.inside_header {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 20x;
+    line-height: 1.8;
+    font-weight: 700;
+    text-transform: none;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center
+}
+
+div.cell {
+
+
+    border-left: 1px solid;
+    border-color: rgb(197, 197, 197);
+
+    height: 100%;
+
+
+    margin-left: 25vw;
+    width: 50vw;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+
+    overflow-x: auto;
+
+}
+
+
+table {
+
+    border-collapse: collapse;
+    overflow: auto
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  th {
+    background: rgb(75, 75, 75);
+    font-weight: bold;
+    font-size: 10px;
+    color: white
+  }
+  td, th {
+    text-align: left;
+
+    font-size: 10px;
+  }
