@@ -8,7 +8,7 @@
 
 
 
-const outputs = ["title",  "viewof selected_granularity", "viewof selected_year", "viewof selected_geography", "commentary", "pyramid"]
+const outputs = ["title",  "viewof selected_granularity", "viewof selected_year", "viewof selected_geography", "commentary", "pyramid", "description", "details"]
 
 
     var cells = document.getElementById("cells")
